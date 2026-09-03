@@ -1,0 +1,26 @@
+# Laboratorio 6. Analisis de redes sociales
+# CC3084 Data Science, Seccion 20, Grupo #7
+# Instalacion: uv venv && uv pip install -r requirements.txt
+
+# Manipulacion y calculo
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+
+# Visualizacion
+matplotlib>=3.8
+
+# Analisis de redes
+networkx>=3.2
+
+# Procesamiento de texto en espanol
+nltk>=3.8
+spacy>=3.7,<4.0
+emoji>=2.10
+
+# Modelo de spaCy para espanol (no esta publicado en PyPI)
+es_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl
+
+# Entorno de ejecucion del notebook
+jupyterlab>=4.0
+ipykernel>=6.29
